@@ -67,6 +67,8 @@ I am a PhD student in the Department of Computational Social Sciences, at the Kr
   * $K=0$ means each attribute is independent of all others (loosely-coupled)
   * $K=N-1$ means each attribute is dependent on all others (tightly-coupled)
   * Oops! I had that wrong before. Updated 1015a, Tuesday
+* Over time, orgs increase their internal connectivity (level of epistatic intreaction) which reduces their adaptibilty
+
 ---
 
 ### Environment
@@ -83,13 +85,22 @@ I am a PhD student in the Department of Computational Social Sciences, at the Kr
 * In each turn, orgs can alter one attribute to better fit the landscape
 * No cost of adaptations
 * Assumed that all adaptations are for the better
-* Some firms not able to adapt (where $K$ approaches $N-1$)
+* Some firms not able to adapt: 
+  * where $K$ approaches $N-1$
+  * when level of epistatic interactions is high
+* Death of an org allows a new org to be born (population is constant)
 * Can also change every attribute to random value: ``long jump''
 
 ---
 
 ### Experiments
 
+* When $K$ is 0: 
+  * only 1 optimal fit to environment
+  * environement is smooth
+* As $K$ increases:
+  * more combinations and permutations of attributes fit the env
+  * environment is rugged
 
 ---
 
@@ -112,7 +123,10 @@ I am a PhD student in the Department of Computational Social Sciences, at the Kr
   * How many attributes determine success? $N$
   * How tightly-coupled are they? $K$
   * How radically does their landscape change?
-* Survival or death and replacement
+* Survival or death (and replacement)
+  * Survival rate of encumbants decreases as $K$ increases
+  * Diversity of fit forms decreases if environment is adaptive
+
 
 
 
