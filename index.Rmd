@@ -69,6 +69,7 @@ I am a PhD student in the Department of Computational Social Sciences, at the Kr
   * Oops! I had that wrong before. Updated 1015a, Tuesday
 * Over time, orgs increase their internal connectivity (level of epistatic intreaction) which reduces their adaptibilty
 
+
 ---
 
 ### Environment
