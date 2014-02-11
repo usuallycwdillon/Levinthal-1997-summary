@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Adaptation on Rugged Landsapes</title>
+  <meta name="description" content="">
+  <meta name="author" content="C.W. Dillon">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/reveal.min.css">
+  <link rel="stylesheet" href="libraries/frameworks/revealjs/css/theme/default.css" id="theme">
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" id="theme">
+  <!--[if lt IE 9]>
+  <script src="lib/js/html5shiv.js"></script>
+  <![endif]-->  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section class='' data-state='' id='slide-1'>
+  <h2>Overview</h2>
+  <ul>
+<li>A model of organizational adaptation 
+
+<ul>
+<li>I assumed that this is an ABM because of the description </li>
+</ul></li>
+<li>Pretty rigid (lots of assumptions)</li>
+<li>L&#39;s examples</li>
+<li>Interesting because...</li>
+</ul>
+
+</section>
+<section class='class' data-state='' id='id'>
+  <h2>What the Model is About</h2>
+  <ul>
+<li>Organizations assumed to adapt to fit their environment (or die)</li>
+<li>Survival of the fittest, most adaptable, and luckiest</li>
+<li>Includes a complex adaptive version</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-3'>
+  <h2>Organizations</h2>
+  <ul>
+<li>Orgs have $N$ attributes
+
+<ul>
+<li>Sample model has 10 attributes</li>
+<li>Initial values are either 0 or 1</li>
+</ul></li>
+<li>Each attribute assumed to be influenced by $K$ other attributes
+
+<ul>
+<li>$K=0$ means each attribute is independent of all others (tightly-coupled)</li>
+<li>$K=N-1$ means each attribute is dependent on all others (loosely-coupled)</li>
+</ul></li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-4'>
+  <h2>Environment</h2>
+  <ul>
+<li>Environment is a space with 1 or more peaks</li>
+<li>Number of peaks can reach $2<sup>K$,</sup> where $K=N-1$</li>
+<li>Changes in response to number of ``fit&#39;&#39; firms, in CAS version</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-5'>
+  <h2>Adaptations</h2>
+  <ul>
+<li>In each turn, orgs can alter one attribute to better fit the landscape</li>
+<li>No cost of adaptations</li>
+<li>Assumed that all adaptations are for the better</li>
+<li>Some firms not able to adapt (where $K$ approaches $N-1$)</li>
+<li>Can also change every attribute to random value: ``long jump&#39;&#39;</li>
+</ul>
+
+</section>
+<section class='' data-state='' id='slide-6'>
+  <h2>Experiments</h2>
+  
+</section>
+<section class='' data-state='' id='slide-7'>
+  <h2>Results</h2>
+  <ul>
+<li>Diversity of orgs can be explained by diversity of the environment</li>
+<li>Tightly-coupled orgs are less likely to survive by adaptation: 
+
+<ul>
+<li>change in one attribute impacts many others</li>
+<li>better to make ``long jumps&#39;&#39; in dynamic landscapes</li>
+</ul></li>
+<li>Loosely-coupled orgs survive by: 
+
+<ul>
+<li>adapting quickly (change is easy)</li>
+<li>making few ``long jumps&#39;&#39;</li>
+</ul></li>
+</ul>
+
+</section>
+    </div>
+  </div>
+</body>
+  <script src="libraries/frameworks/revealjs/lib/js/head.min.js"></script>
+  <script src="libraries/frameworks/revealjs/js/reveal.min.js"></script>
+  <script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+    theme: Reveal.getQueryHash().theme || 'default', 
+    transition: Reveal.getQueryHash().transition || 'default', 
+    dependencies: [
+    // Cross-browser shim that fully implements classList -
+    // https://github.com/eligrey/classList.js/
+      { src: 'libraries/frameworks/revealjs/lib/js/classList.js', condition: function() { return !document.body.classList;}},
+      // Zoom in and out with Alt+click
+      { src: 'libraries/frameworks/revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Speaker notes
+      { src: 'libraries/frameworks/revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      // Remote control your reveal.js presentation using a touch device
+      //{ src: 'libraries/frameworks/revealjs/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+  });
+  </script>  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+ 
+
+</html>
