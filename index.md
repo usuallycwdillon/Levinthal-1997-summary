@@ -64,9 +64,9 @@ I am a PhD student in the Department of Computational Social Sciences, at the Kr
   * Sample model has 10 attributes
   * Initial values are either 0 or 1
 * Each attribute assumed to be influenced by $K$ other attributes
-  * $K=0$ means each attribute is independent of all others (tightly-coupled)
-  * $K=N-1$ means each attribute is dependent on all others (loosely-coupled)
-
+  * $K=0$ means each attribute is independent of all others (loosely-coupled)
+  * $K=N-1$ means each attribute is dependent on all others (tightly-coupled)
+  * Oops! I had that wrong before. Updated 1015a, Tuesday
 ---
 
 ### Environment
