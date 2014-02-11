@@ -8,9 +8,39 @@ highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
+
+--- .class1
+
+### Adaptation on Rugged Landscapes 
+   
+</br>   
+   
+* * * * 
+
+A working summary of 
+D. Levinthal's 1997 paper
+
+* * * * 
+  
+</br>
+</br>
+   
+<small> 
+[CW Dillon](http://www.css.gmu.edu/?q=node/15) 
+
+for _Computational Organizational Theory_, CSS739
+
+George Mason University
+</small>
+
+
+*** =pnotes
+
+I am a PhD student in the Department of Computational Social Sciences, at the Krasnow Institute for Advanced Studies. We focus primarily on neurosciences and applications of complexity theory from a behavioral perspective. This seminar, by Dr. Maksim Tsvetovat is presented as a special topic in social network analysis.
+
 ---
 
-## Overview
+### Overview
 
 * A model of organizational adaptation 
   * I assumed that this is an ABM because of the description 
@@ -20,7 +50,7 @@ mode        : selfcontained # {standalone, draft}
 
 --- .class #id 
 
-## What the Model is About
+### What the Model is About
 
 * Organizations assumed to adapt to fit their environment (or die)
 * Survival of the fittest, most adaptable, and luckiest
@@ -28,7 +58,7 @@ mode        : selfcontained # {standalone, draft}
 
 ---
 
-## Organizations
+### Organizations
 
 * Orgs have $N$ attributes
   * Sample model has 10 attributes
@@ -39,7 +69,7 @@ mode        : selfcontained # {standalone, draft}
 
 ---
 
-## Environment
+### Environment
 
 * Environment is a space with 1 or more peaks
 * Number of peaks can reach $2^K$, where $K=N-1$
@@ -48,7 +78,7 @@ mode        : selfcontained # {standalone, draft}
 
 ---
 
-## Adaptations
+### Adaptations
 
 * In each turn, orgs can alter one attribute to better fit the landscape
 * No cost of adaptations
@@ -58,12 +88,12 @@ mode        : selfcontained # {standalone, draft}
 
 ---
 
-## Experiments
+### Experiments
 
 
 ---
 
-## Results
+### Results
 
 * Diversity of orgs can be explained by diversity of the environment
 * Tightly-coupled orgs are less likely to survive by adaptation: 
@@ -74,6 +104,15 @@ mode        : selfcontained # {standalone, draft}
   * making few ``long jumps''
 
 
+---
+
+### It's Interesting Because...
+
+* Consider two org types: government offices, restaurants
+  * How many attributes determine success? $N$
+  * How tightly-coupled are they? $K$
+  * How radically does their landscape change?
+* Survival or death and replacement
 
 
 
